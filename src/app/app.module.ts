@@ -7,7 +7,9 @@ import { AppComponent } from './app.component';
 import { RoutingModule } from './app-routing.module';
 
 import { ButtonModule } from 'primeng/primeng';
+import {SplitButtonModule} from 'primeng/primeng';
 import {PanelModule} from 'primeng/primeng';
+import {ToolbarModule} from 'primeng/primeng';
 
 import { HomeComponent } from './home/home.component';
 
@@ -21,7 +23,9 @@ import { HomeComponent } from './home/home.component';
     FormsModule,
     HttpModule,
     ButtonModule,
+    SplitButtonModule,
     PanelModule,
+    ToolbarModule,
     RoutingModule
   ],
   providers: [],

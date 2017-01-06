@@ -1,5 +1,32 @@
+<div class="ui-g">
 
+  <p-toolbar class="ui-g-12" [style]="{'background': 'lightgrey'}">
+    <div class="ui-toolbar-group-left">
+      <button pButton type="button" label="New" icon="fa-plus"></button>
+      <button pButton type="button" label="Open" icon="fa-folder-open"></button>
 
-<div class="app-content">
-  <router-outlet></router-outlet>
+      <i class="fa fa-bars"></i>
+
+      <p-splitButton label="Save" icon="fa-check" [model]="items"></p-splitButton>
+    </div>
+    This is a toolbar
+  </p-toolbar>
+</div>
+
+<div class="ui-g">
+  <div class="ui-g-2">
+    <p-panel [style]="{'min-height': '100%'}">
+      <header>
+        Side Menu
+      </header>
+    </p-panel>
+  </div>
+
+  <div class="app-content ui-g-10">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+<div class="ui-g-12">
+  <p-toolbar [style]="{'background': 'lightgrey'}">Footer</p-toolbar>
 </div>
