@@ -10,13 +10,18 @@ import { ButtonModule } from 'primeng/primeng';
 import {SplitButtonModule} from 'primeng/primeng';
 import {PanelModule} from 'primeng/primeng';
 import {ToolbarModule} from 'primeng/primeng';
+import {MenuModule,MenuItem} from 'primeng/primeng';
 
 import { HomeComponent } from './home/home.component';
+import { KanbanComponent } from './kanban/kanban.component';
+import { ScrumComponent } from './scrum/scrum.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    KanbanComponent,
+    ScrumComponent
   ],
   imports: [
     BrowserModule,
@@ -26,6 +31,7 @@ import { HomeComponent } from './home/home.component';
     SplitButtonModule,
     PanelModule,
     ToolbarModule,
+    MenuModule,
     RoutingModule
   ],
   providers: [],

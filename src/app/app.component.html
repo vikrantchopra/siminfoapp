@@ -14,14 +14,16 @@
 </div>
 
 <div class="ui-g">
-  <div class="ui-g-2">
+  <!--div class="ui-g-2">
     <p-panel [style]="{'min-height': '100%'}">
       <header>
         Side Menu
       </header>
     </p-panel>
+  </div-->
+  <div class="ui-g-2">
+    <p-menu [model]="items" [style]="{'min-height': '100%', 'width':'220px'}"></p-menu>
   </div>
-
   <div class="app-content ui-g-10">
     <router-outlet></router-outlet>
   </div>
