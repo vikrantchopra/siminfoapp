@@ -11,6 +11,7 @@ import {SplitButtonModule} from 'primeng/primeng';
 import {PanelModule} from 'primeng/primeng';
 import {ToolbarModule} from 'primeng/primeng';
 import {MenuModule,MenuItem} from 'primeng/primeng';
+import {FieldsetModule} from 'primeng/primeng';
 
 import { HomeComponent } from './home/home.component';
 import { KanbanComponent } from './kanban/kanban.component';
@@ -32,6 +33,7 @@ import { ScrumComponent } from './scrum/scrum.component';
     PanelModule,
     ToolbarModule,
     MenuModule,
+    FieldsetModule,
     RoutingModule
   ],
   providers: [],

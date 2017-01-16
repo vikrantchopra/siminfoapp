@@ -18,7 +18,10 @@ export class AppComponent implements OnInit {
 
       { label: 'Home', icon: 'fa-home', routerLink: ['/home'] },
       { label: 'Scrum', icon: 'fa-repeat', routerLink: ['/scrum'] },
-      { label: 'Kanban', icon: 'fa-dashboard', routerLink: ['/kanban'] }
+      { label: 'Kanban', icon: 'fa-dashboard', routerLink: ['/kanban'] },
+      { label: 'Team Info', icon: 'fa-users', routerLink: ['/teams'] },
+      { label: 'Agile Coach Info', icon: 'fa-user', routerLink: ['/coach'] },
+      { label: 'Resources', icon: 'fa-book', routerLink: ['/resources'] }
     ];
   }
 }
