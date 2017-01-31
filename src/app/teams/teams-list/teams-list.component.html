@@ -1,0 +1,9 @@
+
+<p-panel [style]="{'max-width': '260px', 'max-height': '450px', 'overflow-y':'auto'}">
+    <header>Team List</header>
+  <ul class="teams" >
+      <li *ngFor="let team of teams">
+        <span class="badge" >{{team.id}}</span> <span class="text">{{team.name}}</span>
+        </li>
+    </ul>
+</p-panel>

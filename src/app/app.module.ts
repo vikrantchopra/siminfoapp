@@ -16,13 +16,17 @@ import {FieldsetModule} from 'primeng/primeng';
 import { HomeComponent } from './home/home.component';
 import { KanbanComponent } from './kanban/kanban.component';
 import { ScrumComponent } from './scrum/scrum.component';
+import { TeamsComponent } from './teams/teams.component';
+import { TeamsListComponent } from './teams/teams-list/teams-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     KanbanComponent,
-    ScrumComponent
+    ScrumComponent,
+    TeamsComponent,
+    TeamsListComponent
   ],
   imports: [
     BrowserModule,

@@ -1,15 +1,15 @@
 <div class="ui-g">
 
   <p-toolbar class="ui-g-12" [style]="{'background': 'lightgrey'}">
-    <div class="ui-toolbar-group-left">
+    <div class="ui-toolbar-group-left" style="min-width: 25%">
       <button pButton type="button" label="New" icon="fa-plus"></button>
       <button pButton type="button" label="Open" icon="fa-folder-open"></button>
 
       <i class="fa fa-bars"></i>
 
-      <p-splitButton label="Save" icon="fa-check" [model]="items"></p-splitButton>
     </div>
-    This is a toolbar
+    <span class="duh">Project and Release Management: Resources and Information!</span>
+    <p-splitButton label="Actions" icon="fa-check" [model]="items" class="info"></p-splitButton>
   </p-toolbar>
 </div>
 
